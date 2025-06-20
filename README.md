@@ -34,5 +34,6 @@ cp .env.example .env
 php artisan key:generate
 php artisan migrate --seed
 composer run dev
+```
 
 💡 Note: If the terminal prompts for any confirmation during the process (e.g., “ The SQLite database configured for this application does not exist: database/database.sqlite.  Do you want to create it? (yes/no) [no]:  yes”), just choose yes and press Enter.
