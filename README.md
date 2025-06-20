@@ -27,5 +27,8 @@ This is a modern full-stack CRUD application built with **Laravel 12** and **Rea
 ```bash
 git clone https://github.com/kojuzz/inertia-react.git
 cd inertia-react
+composer install
 npm install
+cp .env.example .env
+php artisan key:generate
 composer run dev
