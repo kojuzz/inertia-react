@@ -21,6 +21,7 @@ This is a modern full-stack CRUD application built with **Laravel 12** and **Rea
 - Flash messages
 
 ## ⚙️ Project Setup
+> Make sure you have **PHP**, **Composer**, and **Node.js/NPM** installed before running the following steps.
 
 ### 1. Clone the Repository
 
@@ -33,3 +34,5 @@ cp .env.example .env
 php artisan key:generate
 php artisan migrate --seed
 composer run dev
+
+💡 Note: If the terminal prompts for any confirmation during the process (e.g., “ The SQLite database configured for this application does not exist: database/database.sqlite.  Do you want to create it? (yes/no) [no]:  yes”), just choose yes and press Enter.
